@@ -1,0 +1,8 @@
+import time
+
+countdown = int(input("Введіть кількість секунд: "))
+while countdown:
+    print(countdown)
+    time.sleep(1)
+    countdown -= 1
+print("Час вийшов!")
